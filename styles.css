@@ -854,6 +854,11 @@ section {
   width: 90%;
 }
 
+#speakers {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .speaker-bio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -870,6 +875,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 50rem;
 }
 
 .speaker-desc {
@@ -885,6 +891,7 @@ section {
   font-weight: 700;
   font-size: 2.4rem;
   color: #353739;
+  text-align: center;
 }
 
 .speaker-info {
