@@ -859,6 +859,12 @@ section {
       flex-wrap: wrap;
 }
 
+#judges {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
 .speaker-bio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -933,6 +939,11 @@ section {
 
 .judge-bio {
   width: 28.5rem;
+  padding: 2rem;
+}
+
+.long-text {
+  width: 90%;
 }
 
 #sponsors {
